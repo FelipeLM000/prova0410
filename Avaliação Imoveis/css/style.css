@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+:root {
+  --primary: #00b98e;
+  --secondary: #effdf5;
+  --light: #effdf5;
+  --dark: #0e2e50;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Heebo', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-img {
+  padding: 6px;
+  border: 2px dashed var(--primary);
+  border-radius: 100%;
+  height: 62px;
+}
+
+.header-title {
+  font-size: 50px;
+  color: var(--primary);
+}
+
+.header-menu ul {
+  display: flex;
+  gap: 55px;
+  padding: 0px 50px 0px 0px;
+}
+
+.header-menu ul li {
+  list-style: none;
+}
+
+.header-menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-menu ul li a:hover {
+  color: var(--primary);
+}
+
+.container-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  background-color: rgb(236, 236, 243);
+}
+
+.main-descricao {
+  width: 50%;
+  padding: 70px 60px;
+}
+
+.main-title {
+  font-size: 75px;
+  margin: 0px 0px 25px 0px;
+}
+
+.main-button {
+  background-color: var(--primary);
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  margin: 40px 0px;
+}
+
+.main-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-img {
+  width: 50%;
+  height: 100%;
+}
+
+.main-img figure img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  background-color: rgb(236, 236, 243);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 40px;
+  padding: 40px;
+}
+
+.descricao-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+}
+
+.container-title {
+  font-size: 50px;
+}
+
+.property-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.card {
+  border: 20px solid var(--light);
+  border-radius: 10px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 8px;
+  padding: 30px 60px;
+
+}
+
+.card-listing {
+  border-radius: 8px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card-listing figure img {
+  width: 400px;
+}
+
+.listing-descricao {
+  padding: 10px 25px;
+  gap: 600000000px;
+}
+
+.price {
+  color: var(--primary);
+}
+
+.listing-button {
+  width: 260px;
+  height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  display: flex;
+}
+
+.footer-container {
+  background-color: var(--dark);
+  width: 50%;
+  padding: 70px 0px 30px 60px;
+}
+
+.footer-title {
+  color: white;
+  margin: 0px 0px 20px 0px;
+}
+
+.footer span {
+  display: flex;
+  flex-direction: row;
+  color: rgb(185, 185, 185);
+
+  gap: 10px;
+  padding: 5px;
+}
+
+.footer span figure img {
+  width: 10px;
+}
+
+.footer-img{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0px;
+}
+
+.footer-img figure img {
+  width: 30px;
+}
+/*Fonte: Heebo*/
